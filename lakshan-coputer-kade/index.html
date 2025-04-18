@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ලක්ෂාන් Computer කඩේ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/lakshan-logo.png" alt="Logo">
+            <h1>ලක්ෂාන් Computer කඩේ</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="auth">
+            <a href="login.html">Login/Register</a>
+            <img src="images/cart-icon.png" alt="Cart" class="cart-icon">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/hero-banner.jpg" alt="Gaming Setup">
+        <div class="hero-text">
+            <h2>Build Your Dream PC</h2>
+            <p>Rs. 300,000 Full Setup → <strong>Rs. 270,000</strong></p>
+            <a href="products.html" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>ප්‍රධාන නිෂ්පාදන</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/gaming-pc.jpg" alt="Gaming PC">
+                <h3>Gaming PC (2023 Model)</h3>
+                <p>Rs. 270,000</p>
+                <button onclick="addToCart('Gaming PC')">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/ssd.jpg" alt="Gaming SSD">
+                <h3>FSG Gaming SSD - 1TB</h3>
+                <p>Rs. 12,000</p>
+                <button onclick="addToCart('FSG Gaming SSD')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lakshan Computer Kade</p>
+        <div class="social-icons">
+            <a href="#"><img src="images/instagram-logo.png" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook-logo.png" alt="Facebook"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
